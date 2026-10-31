@@ -1,0 +1,15 @@
+# CODEOWNERS: власники коду для автоматичного запиту рев'ю.
+# Правила читаються зверху вниз, для файлу діє ОСТАННЄ правило, що з ним збігається.
+
+# 1. Власник за замовчуванням для всього репозиторію
+*                       @mykhailokrainiak
+
+# 2. Фронтенд та бекенд (у реальній команді — різні люди або команди @org/frontend)
+/frontend/              @mykhailokrainiak
+/backend/               @mykhailokrainiak @frontend-lead-demo
+
+# 3. Документація: усі markdown-файли в будь-якому каталозі
+*.md                    @mykhailokrainiak
+
+# 4. Інфраструктура: зміни CI і самого CODEOWNERS — лише власник репозиторію
+/.github/               @mykhailokrainiak
