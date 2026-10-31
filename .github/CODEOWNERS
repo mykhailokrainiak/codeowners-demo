@@ -6,7 +6,7 @@
 
 # 2. Фронтенд та бекенд (у реальній команді — різні люди або команди @org/frontend)
 /frontend/              @mykhailokrainiak
-/backend/               @mykhailokrainiak @frontend-lead-demo
+/backend/               @mykhailokrainiak
 
 # 3. Документація: усі markdown-файли в будь-якому каталозі
 *.md                    @mykhailokrainiak
